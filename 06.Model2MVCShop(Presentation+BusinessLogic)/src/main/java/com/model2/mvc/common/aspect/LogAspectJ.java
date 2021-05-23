@@ -10,7 +10,7 @@ public class LogAspectJ {
 
 	///Constructor
 	public LogAspectJ() {
-		System.out.println("\n Common :: " + this.getClass() + "\n");
+		System.out.println("\n==> Common :: " + this.getClass() + "\n");
 	}
 	
 	//Around  Advice

@@ -11,7 +11,6 @@ import com.model2.mvc.common.Search;
 import com.model2.mvc.service.domain.User;
 import com.model2.mvc.service.user.UserDao;
 
-
 //==> 회원관리 DAO CRUD 구현
 @Repository("userDaoImpl")
 public class UserDaoImpl implements UserDao{

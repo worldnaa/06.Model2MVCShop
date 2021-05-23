@@ -2,7 +2,6 @@ package com.model2.mvc.service.domain;
 
 import java.sql.Date;
 
-
 //==>회원정보를 모델링(추상화/캡슐화)한 Bean
 public class User {
 	
@@ -21,8 +20,6 @@ public class User {
 	private String phone2;
 	private String phone3;
 
-	
-	
 	///Constructor
 	public User(){
 	}

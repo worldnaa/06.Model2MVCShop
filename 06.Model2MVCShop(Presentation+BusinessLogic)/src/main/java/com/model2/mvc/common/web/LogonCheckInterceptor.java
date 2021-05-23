@@ -26,7 +26,7 @@ public class LogonCheckInterceptor extends HandlerInterceptorAdapter {
 	
 	///Constructor
 	public LogonCheckInterceptor(){
-		System.out.println("\n Common :: "+ this.getClass() + "\n");		
+		System.out.println("\n==> Common :: "+ this.getClass() + " 의 default 생성자 실행 \n");		
 	}
 	
 	///Method

@@ -19,7 +19,6 @@ import com.model2.mvc.common.Search;
 import com.model2.mvc.service.domain.User;
 import com.model2.mvc.service.user.UserService;
 
-
 //==> 회원관리 Controller
 @Controller
 public class UserController {
@@ -31,7 +30,7 @@ public class UserController {
 	//setter Method 구현 않음
 		
 	public UserController(){
-		System.out.println(this.getClass());
+		System.out.println("\n==> " + this.getClass() + " 의 default 생성자 실행");
 	}
 	
 	//==> classpath:config/common.properties  ,  classpath:config/commonservice.xml 참조 할것
