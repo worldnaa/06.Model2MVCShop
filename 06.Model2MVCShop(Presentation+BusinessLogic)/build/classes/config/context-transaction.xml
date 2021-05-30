@@ -6,11 +6,11 @@
 		xmlns:aop="http://www.springframework.org/schema/aop"
 		xsi:schemaLocation=
 				"http://www.springframework.org/schema/beans 
-				 http://www.springframework.org/schema/beans/spring-beans.xsd
+				 https://www.springframework.org/schema/beans/spring-beans.xsd
 				 http://www.springframework.org/schema/tx 
 				 http://www.springframework.org/schema/tx/spring-tx.xsd
 				 http://www.springframework.org/schema/aop 
-				 http://www.springframework.org/schema/aop/spring-aop.xsd">
+				 https://www.springframework.org/schema/aop/spring-aop.xsd">
 				 
 	<!-- PropertyPlaceholderConfigurer 로 로드된 resource 는 ${  } 로 접근 가능 -->
 	<bean	id="propertyConfigurer"
