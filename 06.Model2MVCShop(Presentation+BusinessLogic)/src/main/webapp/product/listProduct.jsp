@@ -105,6 +105,9 @@ ${ System.out.println("<<<<< listProduct.jsp 시작 >>>>>") }
 			<td></td>
 			<td align="left">
 			
+			<a href="/getProduct.do?prodNo=${product.prodNo}&menu=search">${product.prodName}</a>
+			
+			<!-- 
 			<c:choose>
 				<c:when test="${product.proTranCode == '판매중' }">
 					<a href="/getProduct.do?prodNo=${product.prodNo}&menu=search">${product.prodName}</a>
@@ -113,7 +116,8 @@ ${ System.out.println("<<<<< listProduct.jsp 시작 >>>>>") }
 					${product.prodName}
 				</c:otherwise>
 			</c:choose>
-
+			 -->
+			 
 			</td>
 			<td></td>
 			<td align="left">${product.price}</td>
